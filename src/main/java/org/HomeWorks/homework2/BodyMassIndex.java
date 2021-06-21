@@ -1,4 +1,4 @@
-package org.example;
+package org.HomeWorks.homework2;
 import java.lang.*;
 import java.util.*;
 public class BodyMassIndex {
