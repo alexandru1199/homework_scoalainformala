@@ -10,7 +10,6 @@ public class Greetings {
             System.out.print("Hello, " + nume + "!");
         }
     }
-
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         String nume = input.nextLine();
