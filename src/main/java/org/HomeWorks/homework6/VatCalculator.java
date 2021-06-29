@@ -1,4 +1,4 @@
-package org.HomeWorks.homeowork6;
+package org.HomeWorks.homework6;
 
 public class VatCalculator {
     static void calculatePrice(float baseprice, float VAT)
