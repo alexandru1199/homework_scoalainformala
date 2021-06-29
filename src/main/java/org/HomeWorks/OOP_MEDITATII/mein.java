@@ -12,7 +12,7 @@ package org.HomeWorks.OOP_MEDITATII;
     public static void main(String[] args) {
          suma(1,4);
          suma(1,4,5);
-        Bec b= new Bec();
-
+        Bec b= new Bec(1,2,3,true);
+        Bec c= new Bec();
     }
 }
