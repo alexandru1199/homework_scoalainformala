@@ -1,7 +1,7 @@
-package org.HomeWorks.OOP_MEDITATII;
+package org.HomeWorks.oop_meditatii;
 
  class Bec {
-   private float pret;
+   protected float pret;
    private float voltajMaxim;
    private float voltaj;
    private boolean on;
@@ -14,5 +14,11 @@ package org.HomeWorks.OOP_MEDITATII;
    public Bec(){
        System.out.println("Constructour default");
    }
+   protected void GetPret(){
+       System.out.println(pret);
+   }
+     private void GetPret2(){
+         System.out.println(pret);
+     }
 
 }

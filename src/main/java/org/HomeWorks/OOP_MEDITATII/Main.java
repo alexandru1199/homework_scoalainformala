@@ -1,6 +1,6 @@
-package org.HomeWorks.OOP_MEDITATII;
+package org.HomeWorks.oop_meditatii;
 
- class mein {
+ class Main {
      public  static int suma(int a , int b){
          System.out.println(a+b);
 ;         return a+b;
@@ -13,6 +13,10 @@ package org.HomeWorks.OOP_MEDITATII;
          suma(1,4);
          suma(1,4,5);
         Bec b= new Bec(1,2,3,true);
-        Bec c= new Bec();
+
+        Bec_2 d=new Bec_2(1,2,3,true);
+
+        b.GetPret();
+        d.GetPret();
     }
 }
