@@ -17,7 +17,7 @@ public class Student {
        this.ID = ID;
    }
         if(firstName.isEmpty()|| lastName.isEmpty()){
-            throw new IllegalArgumentException("the string shouldnt be empty!");
+            throw new IllegalArgumentException("the name and last name shouldnt be empty!");
         }
         else{
             this.firstName = firstName;
